@@ -22,3 +22,26 @@ StringTokenizer st = new StringTokenizer(문자열, 구분자);
  * /
 StringTokenizer st = new StringTokenizer(문자열, 구분자, true/false); 
 ```
+## 구분자가 하나가 아닌 여러 문자일 경우
+StringTokenizer는 구분자 인자에 여러 개의 구분자를 이용할 수 있게 문자열을 받는다.
+```java
+import java.util.StringTokenizer;
+
+public class Main{
+  public static void main(String[] args){
+    String str = "https://github.com/YiBeomSeok/JAVA_Algorithms";
+    StringTokenizer st = new StringTokenizer(str, ":/");
+    
+    while(st.hasMoreTokens()) {
+      System.out.println(st.nextToken());
+    }
+  }
+}
+```
+
+```java
+https
+github.com
+YiBeomSeok
+JAVA_Algorithms
+```
