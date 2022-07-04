@@ -1,8 +1,8 @@
 # StringTokenizer
 
-StringTokenizer 클래스는 문자열을 구분자를 이용하여 분리할 때 사용
-BufferedReader 클래스의 메서드로 입력을 읽어들인다면 라인 단위로 읽어들일 수 밖에 없음
-BufferedReader 클래스만이 아니더라도, 스페이스 기준이나 컴마 혹은 공백 기분으로 문자열들을 분리한다던가, 특정 문자에 따라 여러 문자열을 나누고 싶을 때 사용
+StringTokenizer 클래스는 문자열을 구분자를 이용하여 분리할 때 사용  
+BufferedReader 클래스의 메서드로 입력을 읽어들인다면 라인 단위로 읽어들일 수 밖에 없음  
+BufferedReader 클래스만이 아니더라도, 스페이스 기준이나 컴마 혹은 공백 기분으로 문자열들을 분리한다던가, 특정 문자에 따라 여러 문자열을 나누고 싶을 때 사용  
 
 ## import
 ```java
@@ -58,8 +58,8 @@ int|countTokens()|총 token의 개수를 return
 
 ## split과의 차이
 둘 다 문자열 파싱하는데 
-StringTokenizer는 java.util에 포함되어 있는 클래스, split은 String 클래스에 속해있는 메소드
-StringTokenizer는 문자 또는 문자열로 문자열을 구분한다면, split은 정규표현식으로 구분
-StringTokenizer는 빈 문자열을 token으로 인식하지 않지만 split은 빈 문자열을 token으로 인식하는 차이가 있음
-StringTokenizer는 결과값이 문자열이라면 split은 결과 값이 문자열 배열
-StringTokenizer를 사용할 경우 전체 token을 보고싶다면 반복문을 이용해 하나하나 뽑을 수 밖에 없음
+StringTokenizer는 java.util에 포함되어 있는 클래스, split은 String 클래스에 속해있는 메소드  
+StringTokenizer는 문자 또는 문자열로 문자열을 구분한다면, split은 정규표현식으로 구분  
+StringTokenizer는 빈 문자열을 token으로 인식하지 않지만 split은 빈 문자열을 token으로 인식하는 차이가 있음  
+StringTokenizer는 결과값이 문자열이라면 split은 결과 값이 문자열 배열  
+StringTokenizer를 사용할 경우 전체 token을 보고싶다면 반복문을 이용해 하나하나 뽑을 수 밖에 없음  
