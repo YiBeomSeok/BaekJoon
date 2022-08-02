@@ -1,8 +1,8 @@
 # 목록
->[1. List](List)\
->[2. Set](Set)\
->[3. Queue](Queue)\
->[4. Map](Map)
+>[1. List](#list)\
+>[2. Set](#set)\
+>[3. Queue](#queue)\
+>[4. Map](#map)
 
 
 # List
