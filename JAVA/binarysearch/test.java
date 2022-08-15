@@ -1,6 +1,14 @@
 import java.io.*;
 import java.util.*;
 
+/*
+Lower Bound와 Upper Bound는 일종의 이분 탐색에서 파생된 것으로, 
+
+이분 탐색이 '원하는 값 k를 찾는 과정' 이라면 
+Lower Bound는 '원하는 값 k 이상이 처음 나오는 위치를 찾는 과정' 이며
+Upper Bound는 '원하는 값 k를 초과한 값이 처음 나오는 위치를 찾는 과정'
+
+*/
 public class Main {
 
     public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
